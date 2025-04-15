@@ -6,7 +6,7 @@
 *   Modo de funcionamiento:
 *
 *       Recogemos los  dos números y la operación que queramos hacer ( suma, resta,
-*       multiplicación , división o calcular el resto de la división de dos números) en el archivo HTML.
+*       multiplicación , división o calcular el resto de la división de dos números ) en el archivo HTML.
 *       Este llama al archivo PHP y selecciona cuál es la operación a ejecutar
 *       Al final se muestra el mensaje con la operación propuesta y el resultado
 *
@@ -61,6 +61,7 @@ if (isset($_POST['submit'])) {
                     echo"El resto de dividir  $num1 entre  $num2 es $result";
                 }
                 break;
+                
             default:
                 // si no se hubiese seleccionado ninguna de las válidas
                 echo "Operación NO VALIDA.";
