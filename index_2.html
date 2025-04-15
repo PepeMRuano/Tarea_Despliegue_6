@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Calculadora hecha para despliegue</title>
+  </head>
+  <body>
+    <form method="post" action="calculadora.php">
+      <p>Dame el primer número:
+        <input type="number" id="num1" name="num1" size="5" required /><br></p>
+      <p style="margin-top:20px;">Dame el segundo número:
+        <input type="number" id="num2" name="num2"size="5" required /><br /></p>
+      <p><p style="margin-top:20px;"></p>Elige una de las siguientes operaciones:</label>
+        <select id="op" name="op">
+          <option value="+"> Sumar: +</option>
+          <option value="-">Restar: -</option>
+          <option value="*">Multiplicar: *</option>
+          <option value="/">Dividir: /</option>
+          <option value="%">Calcular el resto de una división: %</option>
+        </select>
+        <br/></p>
+      <input type="submit" name="submit" value="Realiza la operación" />
+    </form>
+  </body>
+</html>
